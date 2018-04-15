@@ -36,7 +36,7 @@ header {
 header .logo {
   display: inline-flex;
   align-items: center;
-  width: 70%;
+  width: 40%;
 }
 
 header img {
@@ -60,7 +60,7 @@ header span {
 }
 
 header nav {
-  width: 30%;
+  width: 60%;
   font-size: .8rem;
 }
 
@@ -196,3 +196,74 @@ nav ul li {
     font-size: .9rem;
     font-weight: 500;
   }
+
+/* Course Section */
+.course {
+  display: inline-flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgb(28, 26, 34);
+  padding-bottom: 32px;
+}
+
+.course-headline {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.course h2 {
+  text-align: center;
+  color: rgb(230, 229, 233);
+  margin: 32px 0;
+}
+
+.degrees .top {
+  display: inline-flex;
+  flex-direction: row;
+  align-content: center;
+  width: 100%;
+  margin: 0 72px;
+}
+
+.degree-content {
+  width: 30%;
+  margin: 12px;
+  background-color: rgb(230, 229, 233);
+}
+
+.degree-content img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+.degree-content h3 {
+  width: 100%;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin: 16px 16px;
+  color: rgb(28, 26, 34);
+}
+
+.degree-content span {
+  color: rgb(90, 89, 93);
+  font-size: .8rem;
+  line-height: 1.1;
+  margin: 8px 16px;
+}
+
+.degree-content h4 {
+  color: rgb(90, 89, 93);
+  font-size: .8rem;
+  line-height: 1.1;
+  margin: 16px 16px 24px 16px;
+}
+
+.degrees .bottom {
+  display: inline-flex;
+  flex-direction: row;
+  align-content: center;
+  width: 100%;
+  margin: 0 72px;
+}
