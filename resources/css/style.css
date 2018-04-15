@@ -4,6 +4,19 @@ html {
   font-size: 18px;
 }
 
+h1 {
+  font-size: 2.25rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
 /* Header */
 header {
   display: flex;
@@ -52,4 +65,42 @@ nav ul {
 
 nav ul li {
   padding-left: 16px;
+}
+
+/* Main Banner */
+.banner {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(30, 26, 32);
+  color: rgb(230, 229, 233);
+}
+
+.banner img {
+  width: 60%;
+  height: auto;
+  margin: 32px 24px;
+}
+
+.banner .headline {
+  margin-left: 24px;
+}
+
+.banner h1 {
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.banner h3 {
+  margin-bottom: 20px;
+  color: rgb(200, 199, 203);
+}
+
+.banner .button {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  background-color: rgb(255, 148, 77);
+  padding: 8px;
+  border-radius: 4px;
 }
