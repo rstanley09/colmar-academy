@@ -350,3 +350,37 @@ nav ul li {
    line-height: 1.1;
    margin-bottom: 24px;
  }
+
+/* Footer */
+footer {
+  display: flex;
+  align-items: center;
+  height: 64px;
+  width: 100%;
+  background-color: rgb(28, 26, 34);
+}
+
+footer span {
+  color: rgb(190, 189, 193);
+  font-size: .75rem;
+  font-weight: 300;
+  margin-left: 24px;
+  width: 70%;
+}
+
+footer nav {
+  width: 30%;
+  font-size: .8rem;
+}
+
+footer nav ul {
+  display: inline-flex;
+  float: right;
+  margin-right: 24px;
+}
+
+footer nav ul li a {
+  padding-left: 16px;
+  color: rgb(190, 189, 193);
+
+}
