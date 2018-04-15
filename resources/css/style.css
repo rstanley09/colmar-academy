@@ -1,0 +1,55 @@
+/* Universal */
+html {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 18px;
+}
+
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  height: 64px;
+  width: 100%;
+  background-color: rgb(230, 229, 233);
+}
+
+header .logo {
+  display: inline-flex;
+  align-items: center;
+  width: 70%;
+}
+
+header img {
+  margin-left: 24px;
+  height: 45px;
+  width: auto;
+}
+
+header span {
+  font-size: 1.2rem;
+  margin-left: 5px;
+  color: rgb(30, 26, 32);
+}
+
+#colmar {
+  font-weight: 700;
+}
+
+#academy {
+  font-weight: 300;
+}
+
+header nav {
+  width: 30%;
+  font-size: .8rem;
+}
+
+nav ul {
+  display: inline-flex;
+  float: right;
+  margin-right: 24px;
+}
+
+nav ul li {
+  padding-left: 16px;
+}
