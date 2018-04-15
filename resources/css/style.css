@@ -5,16 +5,21 @@ html {
 }
 
 h1 {
-  font-size: 2.25rem;
+  font-size: 2.75rem;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
+  font-weight: 700;
 }
 
 h3 {
   font-size: 1rem;
-  font-weight: 300;
+}
+
+h4 {
+  font-size: .9rem;
+  font-weight: 400;
 }
 
 /* Header */
@@ -25,6 +30,7 @@ header {
   height: 64px;
   width: 100%;
   background-color: rgb(230, 229, 233);
+  border-bottom: solid 2px rgb(28, 26, 34);
 }
 
 header .logo {
@@ -76,13 +82,13 @@ nav ul li {
   background-color: rgb(28, 26, 34);
   color: rgb(230, 229, 233);
   margin-top: 64px;
-  border-bottom: solid 2px rgb(190, 189, 193);
 }
 
 .banner img {
   width: 60%;
   height: auto;
   margin: 32px 24px;
+  object-fit: cover;
 }
 
 .banner .headline {
@@ -111,3 +117,82 @@ nav ul li {
 }
 
 /* Information Section */
+.information {
+  display: inline-flex;
+  background-color: rgb(230, 229, 233);
+  width: 100%;
+}
+
+.main {
+  display: inline-flex;
+  flex-direction: column;
+  width: 60%;
+  height: auto;
+  margin: 32px 10px 32px 24px;
+}
+
+.main img {
+  object-fit: cover;
+  margin-bottom: 32px;
+}
+
+.main h2 {
+  margin-bottom: 16px;
+  color: rgb(28, 26, 34);
+}
+
+.main h4 {
+  margin-bottom: 24px;
+  line-height: 1.2;
+  color: rgb(90, 89, 93);
+}
+
+.main span {
+  font-size: .75rem;
+  font-weight: 400;
+  color: rgb(90, 89, 93);
+}
+
+ .secondary {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   margin: 32px 24px;
+   width: 40%;
+   padding-left: 32px;
+   border-left: solid 1px rgb(190, 189, 193);
+ }
+
+ .secondary-content {
+   display: inline-flex;
+   align-items: center;
+   padding-bottom: 24px;
+ }
+
+  .secondary img {
+    object-fit: cover;
+    height: auto;
+  }
+
+  .text {
+    margin-left: 18px;
+  }
+
+  .secondary-content h3 {
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+  }
+
+  .secondary-content h4 {
+    color: rgb(90, 89, 93);
+    font-size: .8rem;
+    line-height: 1.1;
+    margin-bottom: 24px;
+  }
+
+  .text a {
+    color: rgb(255, 148, 77);
+    font-size: .9rem;
+    font-weight: 500;
+  }
