@@ -22,6 +22,8 @@ h4 {
   font-weight: 400;
 }
 
+
+
 /* Header */
 header {
   display: flex;
@@ -73,6 +75,12 @@ nav ul {
 nav ul li {
   padding-left: 16px;
 }
+
+nav ul li a:hover {
+  color: rgb(8, 185, 216);
+}
+
+
 
 /* Main Banner */
 .banner {
@@ -207,6 +215,8 @@ nav ul li {
     color: rgb(8, 185, 216);
   }
 
+
+
 /* Course Section */
 .course {
   display: inline-flex;
@@ -286,6 +296,8 @@ nav ul li {
   width: 100%;
   margin: 0 72px;
 }
+
+
 
 /* Thesis Section */
 .thesis {
@@ -370,6 +382,8 @@ nav ul li {
    margin-bottom: 24px;
  }
 
+
+
 /* Footer */
 footer {
   display: flex;
@@ -401,8 +415,13 @@ footer nav ul {
 footer nav ul li a {
   padding-left: 16px;
   color: rgb(190, 189, 193);
-
 }
+
+footer nav ul li a:hover {
+  color: rgb(8, 185, 216);
+}
+
+
 
 /* Mobile Header */
 @media only screen and (max-width: 470px) {
@@ -420,6 +439,8 @@ footer nav ul li a {
     display: none;
   }
 }
+
+
 
 /* Mobile Banner */
 @media only screen and (max-width: 470px) {
@@ -451,6 +472,8 @@ footer nav ul li a {
     margin-bottom: 32px;
   }
 }
+
+
 
 /* Mobile Information */
 @media only screen and (max-width: 470px) {
@@ -509,7 +532,6 @@ footer nav ul li a {
    .secondary-content {
      display: none;
    }
-
 }
 
 @media only screen and (min-width: 470px) {
@@ -517,6 +539,8 @@ footer nav ul li a {
     display: none;
   }
 }
+
+
 
 /* Mobile Courses */
 @media only screen and (max-width: 470px) {
@@ -567,7 +591,6 @@ footer nav ul li a {
     background-color: rgb(8, 185, 216);
   }
 
-
   .course {
     display: none;
   }
@@ -578,6 +601,8 @@ footer nav ul li a {
     display: none;
   }
 }
+
+
 
   /* Mobile Thesis */
 @media only screen and (max-width: 470px) {
@@ -597,6 +622,8 @@ footer nav ul li a {
     }
   }
 
+
+
   /* Mobile Footer */
 @media only screen and (max-width: 470px) {
     footer nav {
@@ -607,11 +634,16 @@ footer nav ul li a {
       width: 100%;
       font-size: .65rem;
     }
+  }
+
+
 
 /* Transitions */
     .degrees-mobile a,
     .text a,
     .text-mobile a,
-    .banner .button {
+    .banner .button,
+    nav ul li a,
+    footer nav ul li a {
       transition: all 400ms linear 100ms;
     }
