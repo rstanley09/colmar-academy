@@ -116,6 +116,12 @@ nav ul li {
   font-weight: 500;
 }
 
+.banner .button:hover {
+  background-color: rgb(8, 185, 216);
+}
+
+
+
 /* Information Section */
 .information {
   display: inline-flex;
@@ -195,6 +201,10 @@ nav ul li {
     color: rgb(255, 148, 77);
     font-size: .9rem;
     font-weight: 500;
+  }
+
+  .text a:hover {
+    color: rgb(8, 185, 216);
   }
 
 /* Course Section */
@@ -492,6 +502,10 @@ footer nav ul li a {
      font-weight: 500;
    }
 
+   .text-mobile a:hover {
+     color: rgb(8, 185, 216);
+   }
+
    .secondary-content {
      display: none;
    }
@@ -536,7 +550,7 @@ footer nav ul li a {
     text-align: center;
   }
 
-  .degree-content-mobile {
+  .degrees-mobile a {
     background-color: rgb(255, 148, 77);
     width: 93%;
     border-radius: 4px;
@@ -548,6 +562,11 @@ footer nav ul li a {
     font-weight: 500;
     color: rgb(28, 26, 34);
   }
+
+  .degrees-mobile a:hover {
+    background-color: rgb(8, 185, 216);
+  }
+
 
   .course {
     display: none;
@@ -587,4 +606,12 @@ footer nav ul li a {
     footer span {
       width: 100%;
       font-size: .65rem;
+    }
+
+/* Transitions */
+    .degrees-mobile a,
+    .text a,
+    .text-mobile a,
+    .banner .button {
+      transition: all 400ms linear 100ms;
     }
