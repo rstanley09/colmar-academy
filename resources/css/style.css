@@ -201,9 +201,11 @@ nav ul li {
 .course {
   display: inline-flex;
   flex-direction: column;
+  align-content: center;
   width: 100%;
   background-color: rgb(28, 26, 34);
   padding-bottom: 32px;
+  margin: 0;
 }
 
 .course-headline {
@@ -216,6 +218,13 @@ nav ul li {
   text-align: center;
   color: rgb(230, 229, 233);
   margin: 32px 0;
+}
+
+.degrees {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 42px;
 }
 
 .degrees .top {
