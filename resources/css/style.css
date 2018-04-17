@@ -449,7 +449,7 @@ footer nav ul li a {
   .secondary-content-mobile {
     width: 100%;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
     margin: 16px;
   }
 
@@ -494,3 +494,70 @@ footer nav ul li a {
     display: none;
   }
 }
+
+/* Mobile Courses */
+@media only screen and (max-width: 470px) {
+
+  .course-mobile {
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(28, 26, 34);
+    padding-bottom: 32px;
+    margin: 0;
+  }
+
+  .course-headline-mobile {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .course-mobile h2 {
+    text-align: center;
+    color: rgb(230, 229, 233);
+    margin: 32px 0 16px 0;
+    font-size: 1.5rem;
+  }
+
+  .degrees-mobile {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .degree-content-mobile {
+    background-color: rgb(255, 148, 77);
+    width: 93%;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    padding: 16px 0;
+  }
+  .degrees-mobile h3 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(28, 26, 34);
+  }
+
+  .course {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 470px) {
+  .course-mobile {
+    display: none;
+  }
+
+  /* Mobile Thesis */
+  @media only screen and (max-width: 470px) {
+
+    .course-mobile {
+      display: inline-flex;
+      flex-direction: column;
+      width: 100%;
+      background-color: rgb(28, 26, 34);
+      padding-bottom: 32px;
+      margin: 0;
+    }
