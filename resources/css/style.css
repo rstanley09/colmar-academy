@@ -384,3 +384,113 @@ footer nav ul li a {
   color: rgb(190, 189, 193);
 
 }
+
+/* Mobile Header */
+@media only screen and (max-width: 470px) {
+  .header {
+    display: none;
+  }
+
+  .logo span {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 470px) {
+  .header-mobile {
+    display: none;
+  }
+}
+
+/* Mobile Banner */
+@media only screen and (max-width: 470px) {
+  .banner {
+    display: inline-flex;
+    flex-direction: column;
+  }
+
+  .banner img {
+    width: 100%;
+    margin: 0;
+  }
+
+  .banner .headline {
+    margin-top: 32px;
+      }
+
+  .banner h1 {
+    font-size: 1.75rem;
+  }
+
+  .banner h3 {
+    font-size: .8rem;
+    margin-bottom: 24px;
+  }
+
+  .banner .button {
+    width: 90%;
+    margin-bottom: 32px;
+  }
+}
+
+/* Mobile Information */
+@media only screen and (max-width: 470px) {
+  .main {
+    display: none;
+  }
+
+  .secondary {
+    border: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .secondary-content-mobile {
+    width: 100%;
+    flex-direction: column;
+    align-content: center;
+    margin: 16px;
+  }
+
+  .secondary-content-mobile img {
+    height: 150px;
+    width: 93%;
+    object-fit: cover;
+    margin-bottom: 32px;
+  }
+
+   .text-mobile {
+     margin-left: 18px;
+   }
+
+   .secondary-content-mobile h3 {
+     font-weight: 700;
+     font-size: 1.2rem;
+     margin-bottom: 12px;
+   }
+
+   .secondary-content-mobile h4 {
+     color: rgb(90, 89, 93);
+     font-size: .8rem;
+     line-height: 1.1;
+     margin-bottom: 24px;
+   }
+
+   .text-mobile a {
+     color: rgb(255, 148, 77);
+     font-size: .9rem;
+     font-weight: 500;
+   }
+
+   .secondary-content {
+     display: none;
+   }
+
+}
+
+@media only screen and (min-width: 470px) {
+  .secondary-content-mobile {
+    display: none;
+  }
+}
