@@ -549,15 +549,33 @@ footer nav ul li a {
   .course-mobile {
     display: none;
   }
+}
 
   /* Mobile Thesis */
-  @media only screen and (max-width: 470px) {
+@media only screen and (max-width: 470px) {
+    .thesis-secondary, .thesis-content h3, h4 {
+      display: none;
+    }
 
-    .course-mobile {
-      display: inline-flex;
-      flex-direction: column;
+    .video {
       width: 100%;
-      background-color: rgb(28, 26, 34);
-      padding-bottom: 32px;
+      height: auto;
       margin: 0;
+    }
+
+    .thesis h2 {
+      font-size: 1.5rem;
+      margin: 32px 0 16px 0;
+    }
+  }
+
+  /* Mobile Footer */
+@media only screen and (max-width: 470px) {
+    footer nav {
+      display: none;
+    }
+
+    footer span {
+      width: 100%;
+      font-size: .65rem;
     }
